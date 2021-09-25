@@ -2,7 +2,9 @@
 
 Provide phone mask for InputEditText in your code
 
-## Add it to your build.gradle with:
+## Implementation:
+
+Add it to your project build.gradle:
 
 ```gradle
 allprojects {
@@ -11,7 +13,7 @@ allprojects {
     }
 }
 ```
-and:
+and in module build.gradle:
 
 ```gradle
 dependencies {
