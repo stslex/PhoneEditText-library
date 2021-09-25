@@ -2,6 +2,8 @@
 
 Provide phone mask for InputEditText in your code
 
+<img src="./Screenshot.png" width="300" >
+
 ## Implementation:
 
 Add it to your project build.gradle:
