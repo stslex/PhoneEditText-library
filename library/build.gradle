@@ -1,7 +1,11 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'maven-publish'
 }
+
+group = 'com.github.stslex'
+version = '1.0'
 
 android {
     compileSdk 31
@@ -40,4 +44,17 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.stslex'
+                artifactId = 'PhoneInputEditText'
+                version = '0.1.0'
+            }
+        }
+    }
 }
