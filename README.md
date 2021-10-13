@@ -1,5 +1,7 @@
 # PhoneEditText-library
 
+[![](https://jitpack.io/v/stslex/PhoneEditText-library.svg)](https://jitpack.io/#stslex/PhoneEditText-library)
+
 Provide phone mask for InputEditText in your code
 
 <img src="./Screenshot.png" width="300" >
